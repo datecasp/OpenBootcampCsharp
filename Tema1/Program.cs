@@ -16,7 +16,7 @@ namespace Tema1
             Console.WriteLine("Hola " + nombre);
 
             //Coge hora de sistema y la muestra
-            string datetime = DateTime.Now.ToString("hh:mm:ss tt");
+            string datetime = DateTime.Now.ToString("hh:mm:ss");
             Console.WriteLine(datetime);
         }
     }
