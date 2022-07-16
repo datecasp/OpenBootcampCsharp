@@ -1,0 +1,1 @@
+Ejercicios Tema 2 de Open Bootcamp sobre variables, tipos y operadores
