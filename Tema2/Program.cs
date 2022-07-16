@@ -14,10 +14,13 @@ namespace Tema2
              *  ***********************************/
             string nombre;
             string edad;
-            Console.WriteLine("Hoal usuario.\nCómo te llamas?");
+            string mensaje;
+            Console.WriteLine("Hola usuario.\nCómo te llamas?");
             nombre = Console.ReadLine();
             Console.WriteLine("Cuantos años tienes?");
             edad = Console.ReadLine();
+            mensaje = "Hola "+nombre+", no aparentas "+edad+" años!!";
+            Console.WriteLine(mensaje);
 
             /***********************************
              Ejercicio 3
