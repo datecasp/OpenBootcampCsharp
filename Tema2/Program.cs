@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Tema2
 {
@@ -33,10 +37,12 @@ namespace Tema2
 
             ************************************/
 
-            Console.WriteLine("Operador mayor o igual a. Es 19 mayor o igual que 18? "+ (19>=18));
-            Console.WriteLine("Operador 'a' es char. Es 'a' char?? "+ (GetType('a')==System.char)));
-            Console.WriteLine("Operador se cumplen dos condiciones a la vez. 1<3 Y 4>2?"+((1<3)&&(4>2)));
-            Console.WriteLine("Operador se cumple una de dos condiciones. 1<3 O 4>2?"+((1<3)||(4>2)));
+            char a = 'a';
+
+            Console.WriteLine("Operador mayor o igual a. Es 19 mayor o igual que 18? " + (19 >= 18));
+            Console.WriteLine("Operador 'a' es char. Es la variable a un char? " + (a.GetType() == typeof(char)));
+            Console.WriteLine("Operador se cumplen dos condiciones a la vez. 1<3 Y 4>2?" + ((1 < 3) && (4 > 2)));
+            Console.WriteLine("Operador se cumple una de dos condiciones. 1<3 O 4>2?" + ((1 < 3) || (4 > 2)));
 
         }
         /*************************************
